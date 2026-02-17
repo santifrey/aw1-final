@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
+    
       if (!/^\S+@\S+\.\S+$/.test(email)) {
         alert("Email inválido");
         return;
