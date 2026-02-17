@@ -13,9 +13,11 @@ const totalSpan = document.getElementById("total");
 const mensajeDiv = document.getElementById("mensaje");
 
 function cargarSelect(destinos) {
-  select.innerHTML = destinos.map(d =>
-    `<option value="${d.precio}">${d.nombre}</option>`
-  ).join("");
+    select.innerHTML = destinos.map(destino => `
+        <option value="${destino.id}">
+            ${destino.nombre} - $${destino.precio}
+        </option>
+    `).join("");
 }
 
 function mostrarMensaje(mensaje, tipo = "success") {
@@ -33,6 +35,12 @@ function actualizarTotal() {
 }
 
 cargarSelect(destinos);
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+if (id) {
+  select.value = id;
+}
 
 select.addEventListener("change", actualizarTotal);
 personasInput.addEventListener("input", actualizarTotal);

@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Mendoza",
+    "descripcion": "Disfrutá de los mejores vinos argentinos y la Cordillera de los Andes.",
+    "precio": 120000,
+    "imagen": "https://picsum.photos/400/300?3"
+  },
+  {
+    "id": 2,
+    "nombre": "Bariloche",
+    "descripcion": "Paisajes de montaña, lagos cristalinos y chocolate artesanal.",
+    "precio": 150000,
+    "imagen": "https://picsum.photos/400/300?3"
+  },
+  {
+    "id": 3,
+    "nombre": "Cataratas del Iguazú",
+    "descripcion": "Una de las siete maravillas naturales del mundo, en plena selva misionera.",
+    "precio": 180000,
+    "imagen": "https://picsum.photos/400/300?3"
+  },
+  {
+    "id": 4,
+    "nombre": "Ushuaia",
+    "descripcion": "La ciudad más austral del mundo, rodeada de montañas y mar.",
+    "precio": 210000,
+    "imagen": "https://picsum.photos/400/300?3"
+  },
+  {
+    "id": 5,
+    "nombre": "Salta",
+    "descripcion": "Cultura, historia colonial y paisajes únicos del norte argentino.",
+    "precio": 130000,
+    "imagen": "https://picsum.photos/400/300?3"
+  }
+]
