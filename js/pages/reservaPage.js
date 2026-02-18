@@ -29,9 +29,17 @@ function mostrarMensaje(mensaje, tipo = "success") {
 }
 
 function actualizarTotal() {
-  const precio = parseInt(select.value);
+
+  const idSeleccionado = parseInt(select.value);
+  const destinoSeleccionado = destinos.find(d => d.id === idSeleccionado);
+
+  const precio = destinoSeleccionado
+    ? Number(destinoSeleccionado.precio)
+    : 0;
   const personas = parseInt(personasInput.value) || 0;
+
   totalSpan.textContent = calcularTotal(precio, personas, seguroCheck.checked);
+
 }
 
 cargarSelect(destinos);
