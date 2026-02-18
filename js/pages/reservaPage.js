@@ -36,7 +36,7 @@ function actualizarTotal() {
   const precio = destinoSeleccionado
     ? Number(destinoSeleccionado.precio)
     : 0;
-  const personas = parseInt(personasInput.value) || 0;
+  const personas = parseInt(personasInput.value) || 1;
 
   totalSpan.textContent = calcularTotal(precio, personas, seguroCheck.checked);
 
