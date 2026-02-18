@@ -29,3 +29,104 @@ body {
   width: 100%;
   border-radius: 8px;
 }
+
+.card-destino {
+  cursor: pointer;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 1001;
+  color: #333;
+}
+
+.close-modal:hover {
+  color: #f44336;
+}
+
+.modal-imagen {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.modal-body h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.descripcion-larga {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.precio-modal {
+  font-size: 18px;
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.modal-body .btn {
+  width: 100%;
+  text-align: center;
+}
