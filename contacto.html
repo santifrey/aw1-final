@@ -32,15 +32,20 @@
 
         <div class="mb-3">
           <label class="form-label">Nombre</label>
-          <input type="text" class="form-control" required>
+          <input type="text" class="form-control" name="nombre" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email (para respuesta)</label>
+          <input id="contactEmail" type="email" class="form-control" name="email" placeholder="tu@ejemplo.com" required>
         </div>
 
         <div class="mb-3">
           <label class="form-label">Mensaje</label>
-          <textarea class="form-control" rows="4" required></textarea>
+          <textarea class="form-control" name="mensaje" rows="4" required></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary w-100">
+        <button id="contactSubmit" type="submit" class="btn btn-primary w-100" disabled>
           Enviar Mensaje
         </button>
 
