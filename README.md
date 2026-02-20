@@ -25,14 +25,21 @@ Características
 ```
 aw1 final/
 ├── index.html              # Página de inicio
-├── destinos.html           # Página de destinos
+├── destinos.html           # Página de seleccion de destinos 
 ├── reserva.html            # Formulario de reserva
 ├── misreservas.html        # Página con las reservas realizadas
 ├── contacto.html           # Formulario de contacto
 ├── css/
 │   └── styles.css          # Estilos globales
+├── img/                    # Imágenes usadas por las páginas
+│   ├── bariloche.jpg
+│   ├── mendoza.jpg
+│   ├── iguazu.jpeg
+│   ├── ushuaia.jpeg
+│   ├── Salta.jpg
+│   └── inicio.jpg
 ├── data/
-│   └── destinos.json       # Archivo con el listado de destinos disponibles 
+│   └── destinos.json       # Archivo con el listado de destinos disponibles
 └── js/
     ├── pages/
     │   ├── destinosPage.js      # Lógica de página destinos
@@ -112,7 +119,7 @@ Las reservas se guardan en `localStorage` con el nombre `"reservas"` como un arr
 
 - Las reservas solo persisten mientras no se borre el localStorage del navegador
 - Todos los formularios incluyen validaciónes
-- Las imágenes de destinos se cargan desde `picsum.photos`
+- Las imágenes de destinos se cargan desde `img`
 - Para modificar los destinos disponibles editar `destinos.json`
 
 ## Autor
