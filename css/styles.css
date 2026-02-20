@@ -1,5 +1,68 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  flex-shrink: 0;
+}
+
+header.app-header {
+  background-color: #212529;
+  color: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #444;
+}
+
+header.app-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header.app-header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+header.app-header a:hover {
+  color: #adb5bd;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  border-top: 1px solid #444;
+}
+
+footer.app-footer {
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #444;
 }
 
 .hero {
@@ -129,4 +192,11 @@ body {
 .modal-body .btn {
   width: 100%;
   text-align: center;
+}
+
+
+footer {
+  background: #000000;
+  color: white;
+  padding: 30px;
 }
