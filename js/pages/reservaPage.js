@@ -36,7 +36,7 @@ function actualizarTotal() {
   const precio = destinoSeleccionado
     ? Number(destinoSeleccionado.precio)
     : 0;
-  const personas = parseInt(personasInput.value) || 1;
+  const personas = parseInt(personasInput.value) || 0;
 
   totalSpan.textContent = calcularTotal(precio, personas, seguroCheck.checked);
 
@@ -67,6 +67,10 @@ form.addEventListener("submit", (e) => {
 
   if (!validarEmail(email)) {
     mostrarMensaje("Email inválido", "danger");
+    return;
+  }
+  if (personasInput.value <= 0) {
+    mostrarMensaje("El número de personas debe ser mayor a 0", "danger");
     return;
   }
 
