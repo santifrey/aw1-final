@@ -23,7 +23,6 @@ function renderDestinos(destinos) {
     card.addEventListener("click", (e) => {
       // No abrir modal si se hace click en el botón Reservar
       if (e.target.closest(".btn-primary")) return;
-      
       const id = card.dataset.id;
       const destino = destinos.find(d => d.id == id);
       mostrarModal(destino);
