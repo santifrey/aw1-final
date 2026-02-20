@@ -6,7 +6,7 @@
     "descripcion": "Disfrutá de los mejores vinos argentinos y la Cordillera de los Andes.",
     "descripcionLarga": "Mendoza es el corazón de la producción de vino argentino. Ubicada al pie de la majestuosa Cordillera de los Andes, ofrece bodegas de clase mundial, paisajes vinícolas de ensueño y una gastronomía excepcional. Disfruta de tours por las mejores viñas, degustaciones de Malbec, paseos a caballo por las montañas y la exquisita cocina local que complementa cada copa. Perfecto para amantes del vino y la naturaleza.",
     "precio": 120000,
-    "imagen": "https://picsum.photos/400/300?2"
+    "imagen": "img/mendoza.jpg"
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "descripcion": "Paisajes de montaña, lagos cristalinos y chocolate artesanal.",
     "descripcionLarga": "Bariloche es la joya de la Patagonia argentina, rodeada de montañas nevadas, lagos cristalinos y bosques de coníferas. Este destino es ideal para amantes de la aventura y la naturaleza. Esquía en invierno en el Cerro Catedral, realiza senderismo en verano, navega por los lagos, y prueba el famoso chocolate artesanal local. La arquitectura alpina y la gastronomía de fusión hacen de cada momento especial.",
     "precio": 150000,
-    "imagen": "https://picsum.photos/400/300?4"
+    "imagen": "img/bariloche.jpg"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
     "descripcion": "Una de las siete maravillas naturales del mundo, en plena selva misionera.",
     "descripcionLarga": "Las Cataratas del Iguazú son una de las siete maravillas naturales del mundo, un espectáculo de agua y naturaleza pura. Con más de 270 saltos de agua, crean un paisaje incomparable entre la selva subtropical. Explora las pasarelas para vistas cercanas, navega bajo las cataratas, disfruta de la vida silvestre con tucanes y coatíes, y vive la experiencia de este paraíso natural que compartimos con Brasil. Un destino imprescindible para todos los visitantes.",
     "precio": 180000,
-    "imagen": "https://picsum.photos/400/300?3"
+    "imagen": "img/iguazu.jpeg"
   },
   {
     "id": 4,
@@ -30,7 +30,7 @@
     "descripcion": "La ciudad más austral del mundo, rodeada de montañas y mar.",
     "descripcionLarga": "Ushuaia, la ciudad más austral del mundo, es el punto de partida para expediciones al Polo Sur. Rodeada por la majestuosa Cordillera Darwin y el Canal Beagle, este destino extremo ofrece como experiencias únicas: cruceros de exploración polar, avistamiento de lobeznos y pingüinos, senderismo en parajes vírgenes y la experiencia de estar al fin del mundo. La cultura fueguina, sus museos históricos y una gastronomía basada en centolla local hacen de esta aventura inolvidable.",
     "precio": 210000,
-    "imagen": "https://picsum.photos/400/300?1"
+    "imagen": "img/ushuaia.jpeg"
   },
   {
     "id": 5,
@@ -38,6 +38,6 @@
     "descripcion": "Cultura, historia colonial y paisajes únicos del norte argentino.",
     "descripcionLarga": "Salta combina historia colonial, cultura viva y paisajes montañosos de ensueño. La arquitectura colonial de su casco histórico, las iglesias del siglo XVII y los museos cuentan historias del pasado. Pero Salta va más allá: los Serranías del Hornocal con sus 14 colores, la Cuesta de Obispo, viñedos de altura y comunidades indígenas que preservan tradiciones ancestrales. Prueba la gastronomía salteña, disfruta de música en vivo y vive la autenticidad del norte argentino.",
     "precio": 130000,
-    "imagen": "https://picsum.photos/400/300?5"
+    "imagen": "img/salta.jpg"
   }
 ]
